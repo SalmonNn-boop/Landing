@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Весенний образовательный чемпионат по дизайну и разработке</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Логотип -->
+            <div class="logo" id="logo">
+                <img src="logo.png" alt="Логотип чемпионата" class="logo-image">
+            </div>
+            
+            <!-- Навигация -->
+            <nav class="nav-container">
+                <a href="#about" class="nav-link">О чемпионате</a>
+                <a href="#stages" class="nav-link">Этапы</a>
+                <a href="#prizes" class="nav-link">Призы</a>
+                <a href="#mailing" class="nav-link">Рассылка</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO-СЕКЦИЯ -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-container">
+                <!-- Заголовок -->
+                <h1 class="hero-title">
+                    Весенний образовательный чемпионат
+                    <span class="hero-subtitle">по дизайну и разработке</span>
+                </h1>
+                
+                <!-- Блок таймера -->
+                <div class="timer-section">
+                    <div class="timer-title">До старта осталось:</div>
+                    <div class="countdown-container" id="countdown"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "О ЧЕМПИОНАТЕ" -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <h2 class="section-title">О чемпионате</h2>
+                
+                <div class="info-blocks-container">
+                    <!-- Блок 1 -->
+                    <div class="info-block">
+                        <div class="info-block-icon">
+                            <img src="award.png" alt="Награда" class="icon-image">
+                        </div>
+                        <h3 class="info-block-subtitle">Что это?</h3>
+                        <p class="info-block-text">
+                            Весенний образовательный чемпионат — практическое соревнование<br><br>
+                            Участники получают задачи от экспертов индустрии и создают 
+                            проекты для портфолио
+                        </p>
+                    </div>
+                    
+                    <!-- Блок 2 -->
+                    <div class="info-block">
+                        <div class="info-block-icon">
+                            <img src="clipboard.png" alt="Участники" class="icon-image">
+                        </div>
+                        <h3 class="info-block-subtitle">Кто может участвовать?</h3>
+                        <p class="info-block-text">
+                            Студенты IT-специальностей колледжей и вузов<br><br>
+                            Участие бесплатно и открыто для всех желающих. Можно участвовать индивидуально или в 
+                            команде до 3-х человек
+                        </p>
+                    </div>
+                    
+                    <!-- Блок 3 -->
+                    <div class="info-block">
+                        <div class="info-block-icon">
+                            <img src="book-open.png" alt="Направления" class="icon-image">
+                        </div>
+                        <h3 class="info-block-subtitle">Какие направления?</h3>
+                        <p class="info-block-text">
+                            «Дизайн» — разработка UI/UX решений и подготовка макетов для верстки<br><br>
+                            «Разработка» — адаптивная верстка и программирование основного функционала
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "ЭТАПЫ" -->
+        <section class="stages-section" id="stages">
+            <div class="stages-container">
+                <h2 class="section-title">Этапы чемпионата</h2>
+                <div class="stages-grid">
+                    <div class="stage-card">
+                        <div class="stage-date">1 апреля</div>
+                        <h3 class="stage-title">Завершение регистрации</h3>
+                        <p class="stage-desc">Проверка заявок, подтверждение участия, создание чатов.</p>
+                    </div>
+                    <div class="stage-card">
+                        <div class="stage-date">8 апреля</div>
+                        <h3 class="stage-title">Старт чемпионата (Онлайн)</h3>
+                        <p class="stage-desc">Открытие доступа к заданиям, выбор кейса, формирование команд.</p>
+                    </div>
+                    <div class="stage-card">
+                        <div class="stage-date">8 апреля — 8 мая</div>
+                        <h3 class="stage-title">Решение кейсов (Онлайн)</h3>
+                        <p class="stage-desc">Работа над кейсами, обратная связь от менторов, онлайн-встречи.</p>
+                    </div>
+                    <div class="stage-card">
+                        <div class="stage-date">15 мая</div>
+                        <h3 class="stage-title">Финал (офлайн, Москва)</h3>
+                        <p class="stage-desc">Презентация лучших проектов, объявление победителей, награждение.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "ПРИЗЫ" -->
+        <section class="prizes-section" id="prizes">
+            <div class="prizes-container">
+                <h2 class="section-title">Призы</h2>
+                <div class="prizes-grid">
+                    <div class="prize-card">
+                        <div class="prize-place">1 место</div>
+                        <div class="prize-amount">700 000 ₽</div>
+                        <div class="prize-extra">+ мерч, книги, сертификаты на курсы</div>
+                    </div>
+                    <div class="prize-card">
+                        <div class="prize-place">2 место</div>
+                        <div class="prize-amount">500 000 ₽</div>
+                        <div class="prize-extra">+ мерч, книги, сертификаты на курсы</div>
+                    </div>
+                    <div class="prize-card">
+                        <div class="prize-place">3 место</div>
+                        <div class="prize-amount">100 000 ₽</div>
+                        <div class="prize-extra">+ мерч, книги, сертификаты на курсы</div>
+                    </div>
+                    <div class="prize-for-all">
+                        Для всех участников: сертификат об участии, реальный кейс в портфолио, опыт командной работы над IT-проектом.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "РАССЫЛКА" -->
+        <section class="mailing-section" id="mailing">
+            <div class="mailing-container">
+                <h2 class="section-title">Первыми узнавайте о новостях чемпионата!</h2>
+                <p class="mailing-text">Подпишитесь на рассылку уведомлений, чтобы:</p>
+                <div class="mailing-benefits">
+                    <span class="benefit-item">узнать о старте регистрации</span>
+                    <span class="benefit-item">получить напоминание за день до старта</span>
+                    <span class="benefit-item">быть в курсе изменений и анонсов</span>
+                </div>
+                <form class="mailing-form" id="subscribeForm">
+                    <div class="form-row">
+                        <input type="text" class="form-input" placeholder="Ваше имя" required>
+                        <input type="email" class="form-input" placeholder="Электронная почта" required>
+                    </div>
+                    <button type="submit" class="form-button">Подписаться</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ФУТЕР -->
+    <footer class="footer" id="contacts">
+        <div class="footer-container">
+            <h3 class="footer-title">Наши контакты</h3>
+            <div class="footer-contacts">
+                <a href="https://t.me/vkeducation_about" class="contact-link">Telegram</a>
+                <a href="https://vk.com/vkedu" class="contact-link">VK</a>
+                <a href="https://max.ru/vkeducation" class="contact-link">MAX</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">© 2025 VK Education</div>
+                <div class="footer-links">
+                    <a href="https://education.vk.company/static/documents/agreement_reg.pdf">Политика конфиденциальности</a>
+                    <a href="https://education.vk.company/static/documents/agreement_reg_extra.pdf">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
